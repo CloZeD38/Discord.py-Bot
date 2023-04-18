@@ -14,12 +14,12 @@ class Help(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-
+# команда
     @commands.cooldown(1, 5, commands.BucketType.user)
     @commands.command()
     async def help(self, ctx):
         await ctx.send('Список команд')
-
+# конец команды
 
 def setup(bot):
     bot.add_cog(Help(bot))
