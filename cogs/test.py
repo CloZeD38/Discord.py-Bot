@@ -10,16 +10,17 @@ from discord import member
 from config import settings
 import json
 
+# создание класса
 class Test(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-
+# команда
     @commands.cooldown(1, 5, commands.BucketType.user)
     @commands.command()
     async def hello(self, ctx):
         await ctx.send('Привет!')
-
+# конец команды
 
 def setup(bot):
     bot.add_cog(Test(bot))
