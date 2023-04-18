@@ -16,4 +16,5 @@ Discord бот на Python для начинающих.
 
 # Команды
 Изменить команды можно в папке ```cogs/```.
-ВАЖНО! Перед созданием команд ознакомьтесь с когами в документации ```https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html```.
+ВАЖНО! Перед созданием команд ознакомьтесь с когами в документации
+https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html.
