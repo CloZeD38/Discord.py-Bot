@@ -10,6 +10,7 @@ from discord import member
 from config import settings
 import json
 
+# создание класса
 class Help(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
