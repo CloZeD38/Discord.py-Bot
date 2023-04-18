@@ -6,7 +6,7 @@ Discord бот на Python для начинающих.
 ВАЖНО! Во время установки обязательно ставьте галочку ```Add Python to PATH```.
 
 2. После установки открываем командную строку в папке бота и пишем команду
-```pip install -r requirements.txt```
+```pip install -r requirements.txt```.
 
 3. Создаем своего бота на сайте https://discord.com/developers/applications. Дальше нужно включить интенты ```Members intents``` и ```Presence intents```.
 
