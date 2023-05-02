@@ -17,7 +17,7 @@ print(time4logs(), 'Запуск:')
 start = time.time()
 
 # включаем интенты и создаем переменную бота
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 intents.members = True
 bot = commands.Bot(command_prefix=settings['prefix'], intents=intents, help_command=None)
 
